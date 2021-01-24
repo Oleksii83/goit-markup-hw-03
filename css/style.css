@@ -92,6 +92,9 @@ a {
   color: var(--accent-color);
 }
 .site-portfolio {
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
   margin-right: 50px;
   color: var(--accent-color);
 }
@@ -197,6 +200,7 @@ a {
 }
 
 .points-title {
+  padding-top: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.714;
@@ -309,6 +313,7 @@ a {
 
 /*image*/
 .project {
+  margin: -30px;
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
