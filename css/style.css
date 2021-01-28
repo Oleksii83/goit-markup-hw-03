@@ -57,6 +57,8 @@ a {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 2px;
+  border-color: yellowgreen;
 }
 
 /*nav-container*/
@@ -301,6 +303,15 @@ a {
 
 /*portfolio*/
 
+.nav-container-portfolio {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+
+  border-bottom: 1px;
+  border-bottom: var(--accent-color);
+}
+
 /*hero-button*/
 .button-navigate {
   margin-top: 95px;
@@ -373,7 +384,12 @@ a {
 }
 
 /*footer*/
+.footer-cotainer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .logo-footer {
+  padding-top: 60px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
@@ -399,19 +415,22 @@ a {
   margin-top: 20px;
 }
 .footer-adress {
+  padding-top: 20px;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--background-color);
 }
 .footer-nav {
+  padding-top: 10px;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--footer-nav);
 }
 .footer-nav-tel {
-  padding-bottom: 60px;
+  padding-top: 10px;
+
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
