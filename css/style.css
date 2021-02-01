@@ -192,9 +192,11 @@ a {
 }
 
 /*section points*/
+.points-section {
+  padding-top: 95px;
+}
 .points {
   display: flex;
-  margin-top: 95px;
 }
 .points-flex {
   flex-wrap: wrap;
@@ -225,9 +227,10 @@ a {
 }
 
 /*section occupation*/
-
+.occupation {
+  padding-top: 95px;
+}
 .occupation-heading {
-  margin-top: 95px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -239,7 +242,7 @@ a {
 /*sectoin lesson*/
 .occupation-flex {
   display: flex;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .occupation-flex:last-child {
   margin: none;
@@ -274,11 +277,10 @@ a {
 }
 
 .comand-flex {
-  margin-top: 95px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
   display: flex;
-  margin-top: 50px;
+  padding-top: 50px;
   padding-bottom: 95px;
 }
 
