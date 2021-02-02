@@ -229,6 +229,7 @@ a {
 /*section occupation*/
 .occupation {
   padding-top: 95px;
+  padding-bottom: 95px;
 }
 .occupation-heading {
   font-style: normal;
@@ -254,11 +255,12 @@ a {
 
 /*section comand*/
 .comand {
-  max-width: 1600px;
+  padding-top: 95px;
+  padding-bottom: 95px;
   margin-left: auto;
   margin-right: auto;
   background: #f5f4fa;
-  margin-top: 95px;
+
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .comand-list {
@@ -281,11 +283,9 @@ a {
 
   display: flex;
   padding-top: 50px;
-  padding-bottom: 95px;
 }
 
 .comand-heading {
-  padding-top: 95px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -321,7 +321,6 @@ a {
 
 /*portfolio*/
 .header-container-portfolio {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 25px;
@@ -337,6 +336,7 @@ a {
 /*hero-button*/
 .button-navigate {
   margin-top: 94px;
+  padding-bottom: 115px;
 }
 .flex-button-item {
   display: flex;
@@ -412,9 +412,17 @@ a {
 }
 
 /*footer*/
-.footer-cotainer {
+.footer-list {
+  margin-top: 45px;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--background-footer);
+}
+
+.footer-cotainer {
 }
 .logo-footer {
   padding-top: 60px;
@@ -432,14 +440,7 @@ a {
 .icon-footer-wh {
   color: var(--background-color);
 }
-.footer-list {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 
-  background-color: var(--background-footer);
-  margin-top: 95px;
-}
 .footer-item {
   padding-top: 20px;
 }
